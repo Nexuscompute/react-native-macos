@@ -93,7 +93,7 @@
   },
   "dependencies": {
     "@jest/create-cache-key-function": "^26.5.0",
-    "@react-native-community/cli": "^4.13.0",
+    "@react-native-community/cli": "^6.1.0",
     "@react-native-community/cli-platform-android": "^4.13.0",
     "@react-native-community/cli-platform-ios": "^4.13.0",
     "@react-native/assets": "1.0.0",
