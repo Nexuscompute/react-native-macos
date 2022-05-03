@@ -11,7 +11,8 @@
   "scripts": {
     "build": "yarn clean && node scripts/build.js --verbose",
     "clean": "rm -rf lib",
-    "prepublish": "yarn run build"
+    "prepublish": "yarn run snyk-protect && yarn run build",
+    "snyk-protect": "snyk-protect"
   },
   "license": "MIT",
   "files": [
@@ -20,7 +21,8 @@
   "dependencies": {
     "flow-parser": "^0.121.0",
     "jscodeshift": "^0.11.0",
-    "nullthrows": "^1.1.1"
+    "nullthrows": "^1.1.1",
+    "@snyk/protect": "latest"
   },
   "beachball": {
     "shouldPublish": false
@@ -41,5 +43,6 @@
     "micromatch": "^4.0.2",
     "mkdirp": "^0.5.1",
     "prettier": "1.19.1"
-  }
+  },
+  "snyk": true
 }
