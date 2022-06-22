@@ -4503,10 +4503,10 @@ hermes-engine-darwin@~0.5.0:
   resolved "https://registry.yarnpkg.com/hermes-engine-darwin/-/hermes-engine-darwin-0.5.1.tgz#697ac45c3aa2ea17a18494c9f8898d984c34c060"
   integrity sha512-+IHmncqIrZfOhUYgmInujJVnTQ5qxjijdKC5ohlHalVj088/H6hnAIGr4nX84HAs1JjLCGLA0xujRfd0WY50wA==
 
-hermes-engine@~0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/hermes-engine/-/hermes-engine-0.7.0.tgz#c4a13e09811d7bc975a0662bd2ca7120003d6ef8"
-  integrity sha512-lU9OenFWXXOzYldqn15QvbiD0kDc+uw2arhCOkR+9D+PhrLFcbEqnaXFESgchN77JYEf77KkqXncTZA8aoXw2A==
+hermes-engine@~0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/hermes-engine/-/hermes-engine-0.10.0.tgz#3a8eca6bbde31e0a2881f265f7c3216ae44c4015"
+  integrity sha512-SiBo9rvuWetTIQGPPYwRHP0Omo/Iw/yd0sujWR0bW08+syIO0qDpo/fgx7GrY5PEy8wLcVz8v7adET2i5DOmJg==
 
 hermes-profile-transformer@^0.0.6:
   version "0.0.6"
@@ -7213,7 +7213,7 @@ p-finally@^1.0.0:
 
 p-is-promise@^1.1.0:
   version "1.1.0"
-  resolved "http://registry.npmjs.org/p-is-promise/-/p-is-promise-1.1.0.tgz#9c9456989e9f6588017b0434d56097675c3da05e"
+  resolved "https://registry.npmjs.org/p-is-promise/-/p-is-promise-1.1.0.tgz#9c9456989e9f6588017b0434d56097675c3da05e"
   integrity sha1-nJRWmJ6fZYgBewQ01WCXZ1w9oF4=
 
 p-limit@^2.0.0, p-limit@^2.2.0:
