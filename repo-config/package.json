@@ -15,12 +15,12 @@
     "@reactions/component": "^2.0.2",
     "@typescript-eslint/eslint-plugin": "4.30.0",
     "@typescript-eslint/parser": "4.30.0",
-    "async": "^2.4.0",
+    "async": "^2.6.4",
     "babel-eslint": "^10.1.0",
     "clang-format": "^1.2.4",
     "connect": "^3.6.5",
     "coveralls": "^3.0.2",
-    "detox": "16.7.2",
+    "detox": "18.10.0",
     "eslint": "6.8.0",
     "eslint-config-fb-strict": "^24.9.0",
     "eslint-config-fbjs": "2.1.0",
@@ -41,15 +41,21 @@
     "jest": "^26.5.2",
     "jest-junit": "^10.0.0",
     "jscodeshift": "^0.11.0",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.2",
     "prettier": "1.19.1",
     "react": "17.0.1",
     "react-shallow-renderer": "16.14.1",
     "react-test-renderer": "17.0.1",
-    "shelljs": "^0.7.8",
+    "shelljs": "^0.8.5",
     "signedsource": "^1.0.0",
     "typescript": "4.4.2",
-    "ws": "^6.1.4",
-    "yargs": "^15.3.1"
-  }
+    "ws": "^6.2.2",
+    "yargs": "^15.3.1",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
