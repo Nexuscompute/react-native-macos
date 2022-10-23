@@ -123,6 +123,11 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
+"@snyk/protect@^1.1040.0":
+  version "1.1040.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1040.0.tgz#bf6e2ba7a1ff6663f3ad40a94aada8b1f816c646"
+  integrity sha512-yOR+7AsLoDEtOFV9A5/2G9SlSQ8q6uUtOPL9hgZ8nVWa9G+DwEwP7KgyQul8WxgJ7SwAH3/1q4UwYPW9kiTL9A==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
