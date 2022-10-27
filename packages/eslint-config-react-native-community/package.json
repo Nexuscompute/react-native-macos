@@ -23,7 +23,8 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.7",
     "eslint-plugin-react-native": "^3.8.1",
-    "prettier": "^2.0.2"
+    "prettier": "^2.0.2",
+    "@snyk/protect": "latest"
   },
   "peerDependencies": {
     "eslint": ">=6"
@@ -33,5 +34,10 @@
   },
   "beachball": {
     "shouldPublish": false
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
