@@ -3,7 +3,7 @@
 # Based on Ubuntu
 ############################################################
 # Set the base image to Ubuntu
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 # File Author / Maintainer
 MAINTAINER Example prmis@microsoft.com
 ################## BEGIN INSTALLATION ######################
